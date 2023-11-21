@@ -1,0 +1,79 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    will-change: 100%;
+    color: aliceblue;
+    padding: 20px;
+background: #6769e4e8;
+box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.menu-item{
+    list-style: none;
+
+}
+.menu-link{
+color: aliceblue;
+text-decoration: none;
+}
+.banner-section{
+    padding: 100px 0;
+    background: url(картинки/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner-title{
+    font-size: 48px;
+
+}
+.banner-title, .banner-description{
+    text-align: center;
+    color: aliceblue;
+}
+.banner-description{
+    font-size: 25px;
+}
+.cards-section{
+padding: 50px 0px;
+}
+.cards-title, .cards-description{
+    text-align: center;
+    color: rgb(115, 180, 236);
+}
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    width: 25%;
+    background: white;
+    box-shadow: 0px 2px 7px 1px #8373dd;
+    text-align: center;
+}
+.card-link{
+    color: aliceblue;
+    text-decoration: none;
+}
+.card-button{
+    background: #3c3c5f;
+    padding: 10px 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cards-title, .card-text{
+    margin-bottom: 10px;
+}
+.footer{
+    padding: 100px 0;
+    background: url(картинки/2.jpg);
+    background-size: cover;
+}
+.copyright{
+   
+    color: rgb(255, 255, 255);
+}
